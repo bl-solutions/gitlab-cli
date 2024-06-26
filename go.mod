@@ -1,4 +1,4 @@
-module gitlab
+module github.com/bl-solutions/gitlab-cli
 
 go 1.22
 

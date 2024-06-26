@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/bl-solutions/gitlab-cli/gitlab"
 	"github.com/spf13/viper"
-	"gitlab/gitlab"
 	"strconv"
 
 	"github.com/spf13/cobra"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab/cmd"
+	"github.com/bl-solutions/gitlab-cli/cmd"
 	"log"
 )
 
