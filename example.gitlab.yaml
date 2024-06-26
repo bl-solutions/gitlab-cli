@@ -1,0 +1,6 @@
+# The config file must be named .gitlab.yaml
+# It has to be stored on your home directory or on the current directory
+
+gitlab:
+  url: https://gitlab.com/api/v4
+  token: <personal-access-token>
