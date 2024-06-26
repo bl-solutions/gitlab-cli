@@ -2,6 +2,14 @@
 
 This CLI tool make the interactions with GitLab project variables easier.
 
+## Installation
+
+You must have Golang v1.22 or higher installed.
+
+```bash
+go install github.com/bl-solutions/gitlab-cli@latest
+```
+
 ## Usage
 
 You can display help with `-h` flag.
@@ -25,7 +33,7 @@ Please refer to the GitLab documentation to generate a personal access token.
 ### Get project variables
 
 To get all project variables of a project, you can use the command:
-`gitlab get <project-id>`
+`gitlab-cli get <project-id>`
 
 You can specify a custom filename with the `-f` or `--filename` flags.
 
@@ -36,7 +44,7 @@ The project ID can be found on GitLab UI.
 > Be careful, this command is destructive and overwrite existing variables.
 
 To put project variables from a file, you can use the command:
-`gitlab put <project-id>`
+`gitlab-cli put <project-id>`
 
 You can specify a custom filename with the `-f` or `--filename` flags.
 
@@ -47,7 +55,7 @@ The project ID can be found on GitLab UI.
 > Be careful, this command erase every variable of the project.
 
 To flush all project variables, you can use the command:
-`gitlab flush <project-id>`
+`gitlab-cli flush <project-id>`
 
 The project ID can be found on GitLab UI.
 
